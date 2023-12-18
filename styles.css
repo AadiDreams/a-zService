@@ -12,3 +12,7 @@
 .header span {
   color:#0000ff;
 }
+.header input[type="text"] {
+  padding:10px;
+  width:300px;
+}
