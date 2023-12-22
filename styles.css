@@ -13,11 +13,21 @@
 .header span {
   color:#0000ff;
 }
-.header input[type="text"] {
+.search  {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding:10px;
   width:300px;
   border-radius: 20px;
   border: 1px solid #808080;
+}
+input[type="text"] {
+  
+}
+.search img {
+  height: 15px;
+  width: 15px;
 }
 .main {
   display: flex;
