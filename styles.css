@@ -62,10 +62,12 @@ input[type="text"]:focus {
   font-size: 20pt;
   margin-bottom: -10px;
   color: #0000ff;
+  cursor: pointer;
 }
 a {
   text-decoration: none;
   color: #000;
+  cursor: pointer;
 }
 .footer {
   display: flex;
