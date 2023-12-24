@@ -10,10 +10,13 @@
     <script>
         function search(){
             const qvalue=document.getElementById("search-query").value.toLowerCase();
-            const bvalue=document.getElementById(qvalue);
-            bvalue.style.borderWidth="2px";
-            bvalue.style.borderColor="green";
-            bvalue.scrollIntoView({behavior:"smooth"});
+            const bvalue=document.getElementsByClassName(qvalue);
+            for(var i=0;i<bvalue.length;i++)
+            {
+                bvalue[i].scrollIntoView({behavior:"smooth"});
+                bvalue[i].style.borderWidth="2px";
+                bvalue[i].style.borderColor="red";
+            }
         }
     </script>
     <header class="header">
@@ -26,8 +29,9 @@
         </form>
     </header>
     <div class="main">
+
         <a href="https://revenue.kerala.gov.in/" target="_blank">
-            <div class="box" id="land tax">
+            <div class="box land tax village">
                 <img src="./assets/land_tax.jpg" alt="land tax"/>
                 <br>
                 <label for="title"><h1>Land Tax</h1></label>
@@ -35,6 +39,31 @@
                 <label for="description"><p>Village land tax payment</p></label>
             </div>
         </a>
+
+        <a href="https://tax.lsgkerala.gov.in/epayment/" target="_blank">
+            <div class="box property tax panchayat ownership" id="property tax">
+                <img src="./assets/land_tax.jpg" alt="property tax"/>
+                <br>
+                <label for="title"><h1>Property Tax</h1></label>
+                <br>
+                <label for="description">
+                    <p>Property tax payment - Panchayat</p>
+                    <p>Ownership Certificate</p>
+                </label>
+            </div>
+        </a>
+
+        <a href="https://revenue.kerala.gov.in/" target="_blank">
+            <div class="box mvd parivahan vehicle" id="parivahan">
+                <img src="./assets/land_tax.jpg" alt="parivahan"/>
+                <br>
+                <label for="title"><h1>parivahan</h1></label>
+                <br>
+                <label for="description"><p>Vehicle related services</p></label>
+            </div>
+        </a>
+
+
     </div>
     <footer class="footer">
         a-zService &copy; 2023
