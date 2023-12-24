@@ -7,19 +7,30 @@
     <title>a-zService</title>
 </head>
 <body>
+    <script>
+        function search(){
+            const qvalue=document.getElementById("search-query").value.toLowerCase();
+            const bvalue=document.getElementById(qvalue);
+            bvalue.style.borderWidth="2px";
+            bvalue.style.borderColor="green";
+            bvalue.scrollIntoView({behavior:"smooth"});
+        }
+    </script>
     <header class="header">
         <h1><span>a-z</span>Services</h1>
-        <div class="search" id="search-box">
-            <input type="text" placeholder="Search"/>
-            <img src="./assets/search.png" alt="search icon"/>
-        </div>
+        <form action="#" onsubmit="search()">
+            <div class="search" id="search-box">
+                <input type="text" id="search-query" placeholder="Search"/>
+                <img src="./assets/search.png" alt="search icon"/>
+            </div>
+        </form>
     </header>
     <div class="main">
         <a href="https://revenue.kerala.gov.in/" target="_blank">
-            <div class="box">
+            <div class="box" id="land tax">
                 <img src="./assets/land_tax.jpg" alt="land tax"/>
                 <br>
-                <label for="title"><h1 id="land tax">Land Tax</h1></label>
+                <label for="title"><h1>Land Tax</h1></label>
                 <br>
                 <label for="description"><p>Village land tax payment</p></label>
             </div>
