@@ -63,6 +63,10 @@ input[type="text"]:focus {
   margin-bottom: -10px;
   color: #0000ff;
 }
+a {
+  text-decoration: none;
+  color: #000;
+}
 .footer {
   display: flex;
   justify-content: center;
