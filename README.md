@@ -4,3 +4,4 @@ Website for all e-services
 > People can search using single word related to the website in the search tab provided.
 * Tech Stack: HTML | CSS | JS
 * Output : https://aadidreams.github.io/a-zService/
+* Note : Try not to enter multiple words in query (search)
