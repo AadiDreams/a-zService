@@ -45,7 +45,7 @@ input[type="text"]:focus {
 }
 .box {
   justify-content: center;
-  height:300px;
+  height:310px;
   width: 250px;
   border: 1px solid #808080;
   border-radius: 20px;
