@@ -34,6 +34,12 @@ input[type="text"]:focus {
   height: 15px;
   width: 15px;
 }
+.user {
+  width:150px;
+  text-align: center;
+  font-weight: bold;
+  background-color: #607274;
+}
 .main {
   display: flex;
   justify-content: center;
