@@ -116,6 +116,12 @@ a {
   justify-content: center;
   align-items: center;
   height: 50px;
-  color: #808080;
+  color: #fff;
+  background-color: #223a7a;
   box-shadow: 0px 10px 20px #808080;
+}
+@media(max-width:450px) {
+  .blank{
+    height:300px;
+  }
 }
