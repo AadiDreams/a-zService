@@ -41,6 +41,19 @@ input[type="text"]:focus {
   font-weight: bold;
   font-size: 14pt;
 }
+.drop{
+  display: flex;
+  width:100%;
+  background-color: #808080;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+select{
+  width: auto;
+  height: 50px;
+  font-weight: bold;
+}
 .main {
   display: flex;
   justify-content: center;
