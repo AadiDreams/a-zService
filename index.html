@@ -32,8 +32,10 @@
             USER<br>1000109847
         </div>
         <div class="drop">
-            <select>
+            <select id="dd1">
                 <option>Tax / Fine / Payment</option>
+                <option>CSC</option>
+                <option>Ksmart</option>
             </select>
             <select>
                 <option>Exam & Application</option>
@@ -45,9 +47,28 @@
                 <option>Downloads</option>
             </select>
             <select>
-                <option>Office</option>
+                <option>Official</option>
             </select>
         </div>
+        <script>
+            const dropdown = document.getElementById('dd1');
+            dropdown.addEventListener('change', function() {
+              const selectedValue = this.value;
+              if (selectedValue === 'CSC') {
+                window.open('https://digitalseva.csc.gov.in/','_blank');
+                window.location.replace("index.html");
+              } else if (selectedValue === 'Ksmart') {
+                window.open('https://ikm.gov.in/online-services','_blank');
+                window.location.replace("index.html");
+              } else if (selectedValue === 'booking') {
+                // Redirect to the booking page
+              } else if (selectedValue === 'downloads') {
+                // Redirect to the downloads page
+              } else if (selectedValue === 'official') {
+                // Redirect to the official page
+              }
+            });
+          </script>
     </header>
     <div class="main">
 

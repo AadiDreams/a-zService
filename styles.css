@@ -44,15 +44,18 @@ input[type="text"]:focus {
 .drop{
   display: flex;
   width:100%;
-  background-color: #808080;
+  gap:20px;
+  padding-top: 20px;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
-select{
+select,option{
   width: auto;
   height: 50px;
   font-weight: bold;
+  font-size: 12pt;
+  border: none;
 }
 .main {
   display: flex;
