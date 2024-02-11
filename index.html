@@ -117,33 +117,36 @@
             </select>
         </div>
         <script>
+            function ref(){
+                window.location.replace("index.html");
+            }
             var dropdown = document.getElementById('dd1');
             dropdown.addEventListener('change', function() {
               const selectedValue = this.value;
               if (selectedValue === 'CSC') {
                 window.open('https://digitalseva.csc.gov.in/','_blank');
-                window.location.replace("index.html");
+                ref();
               } else if (selectedValue === 'Ksmart') {
                 window.open('https://ikm.gov.in/online-services','_blank');
-                window.location.replace("index.html");
+                ref();
               } else if (selectedValue === 'Mobisafar') {
-		window.open('https://agent.mobisafar.com/MOBISAFAR/Login.aspx','_blank');
-                window.location.replace("index.html");
+		        window.open('https://agent.mobisafar.com/MOBISAFAR/Login.aspx','_blank');
+                ref();
 	      } else if (selectedValue === 'Electricity') {
-		window.open('https://wss.kseb.in/selfservices/quickpay','_blank');
-                window.location.replace("index.html");
+		        window.open('https://wss.kseb.in/selfservices/quickpay','_blank');
+                ref();
 	      } else if (selectedValue === 'Water') {
-		window.open('https://epay.kwa.kerala.gov.in/quickpay','_blank');
-                window.location.replace("index.html");
+		        window.open('https://epay.kwa.kerala.gov.in/quickpay','_blank');
+                ref();
 	      } else if (selectedValue === 'Camera Fine') {
-		window.open('https://echallan.parivahan.gov.in/index/accused-challan','_blank');
-                window.location.replace("index.html");
+		        window.open('https://echallan.parivahan.gov.in/index/accused-challan','_blank');
+                ref();
 	      } else if (selectedValue === 'Police Fine') {
-		window.open('https://payment.keralapolice.gov.in/','_blank');
-                window.location.replace("index.html");
+		        window.open('https://payment.keralapolice.gov.in/','_blank');
+                ref();
   	      } else if (selectedValue === 'Virtual Court') {
-		window.open('https://vcourts.gov.in/virtualcourt/index.php','_blank');
-                window.location.replace("index.html");
+		        window.open('https://vcourts.gov.in/virtualcourt/index.php','_blank');
+                ref();
               }
             });
 
@@ -151,20 +154,20 @@
             dropdown.addEventListener('change', function() {
               const selectedValue = this.value;
               if (selectedValue === 'NEET') {
-                window.open('https://neet.nta.nic.in/','_blank');
-                window.location.replace("index.html");
+                        window.open('https://neet.nta.nic.in/','_blank');
+                ref();
               } else if (selectedValue === 'JEE') {
-                window.open('https://jeemain.nta.ac.in/','_blank');
-                window.location.replace("index.html");
+                        window.open('https://jeemain.nta.ac.in/','_blank');
+                ref();
               } else if (selectedValue === 'KEAM') {
-		window.open('https://jeemain.nta.ac.in/','_blank');
-                window.location.replace("index.html");
+		        window.open('https://jeemain.nta.ac.in/','_blank');
+                ref();
 	      } else if (selectedValue === 'CUSAT') {
-		window.open('https://admissions.cusat.ac.in/index.php?tag=login','_blank');
-                window.location.replace("index.html");
+		        window.open('https://admissions.cusat.ac.in/index.php?tag=login','_blank');
+                ref();
 	      } else if (selectedValue === 'NIELIT') {
-		window.open('https://student.nielit.gov.in/','_blank');
-                window.location.replace("index.html");
+		        window.open('https://student.nielit.gov.in/','_blank');
+                ref();
               }
             });
 
@@ -172,47 +175,47 @@
             dropdown.addEventListener('change', function() {
               const selectedValue = this.value;
               if (selectedValue === 'PSC') {
-                window.open('https://thulasi.psc.kerala.gov.in/thulasi/','_blank');
-                window.location.replace("index.html");
+                        window.open('https://thulasi.psc.kerala.gov.in/thulasi/','_blank');
+                ref();
               } else if (selectedValue === 'Staff Selection') {
-                window.open('https://ssckkr.kar.nic.in/','_blank');
-                window.location.replace("index.html");
+                        window.open('https://ssckkr.kar.nic.in/','_blank');
+                ref();
               } else if (selectedValue === 'PM Viswakarma') {
-		window.open('https://pmvishwakarma.gov.in/Registration/','_blank');
-                window.location.replace("index.html");
+		        window.open('https://pmvishwakarma.gov.in/Registration/','_blank');
+                ref();
 	      } else if (selectedValue === 'Passport') {
-		window.open('https://www.passportindia.gov.in/AppOnlineProject/welcomeLink#','_blank');
-                window.location.replace("index.html");
+		        window.open('https://www.passportindia.gov.in/AppOnlineProject/welcomeLink#','_blank');
+                ref();
 	      } else if (selectedValue === 'Election ID') {
-		window.open('https://voters.eci.gov.in/','_blank');
-                window.location.replace("index.html");
+		        window.open('https://voters.eci.gov.in/','_blank');
+                ref();
 	      } else if (selectedValue === 'Vehicle related') {
-		window.open('https://mvd.kerala.gov.in/index.php/citizenCorner','_blank');
-                window.location.replace("index.html");
+		        window.open('https://mvd.kerala.gov.in/index.php/citizenCorner','_blank');
+                ref();
 	      } else if (selectedValue === 'PM Kisan') {
-		window.open('https://www.aims.kerala.gov.in/home/portal_schemes','_blank');
-                window.location.replace("index.html");
+		        window.open('https://www.aims.kerala.gov.in/home/portal_schemes','_blank');
+                ref();
   	      } else if (selectedValue === 'Employment') {
-		window.open('https://eemployment.kerala.gov.in/','_blank');
-                window.location.replace("index.html");
+		        window.open('https://eemployment.kerala.gov.in/','_blank');
+                ref();
               } else if (selectedValue === 'Legal Metrology') {
-		window.open('https://lmd.kerala.gov.in/en/fees-fine/','_blank');
-                window.location.replace("index.html");
+		        window.open('https://lmd.kerala.gov.in/en/fees-fine/','_blank');
+                ref();
               } else if (selectedValue === 'Labour Registration') {
-		window.open('https://lcas.lc.kerala.gov.in/office/registration/onlinerenewal_online_pay.php','_blank');
-                window.location.replace("index.html");
+		        window.open('https://lcas.lc.kerala.gov.in/office/registration/onlinerenewal_online_pay.php','_blank');
+                ref();
               } else if (selectedValue === 'Education Loan') {
-		window.open('https://www.jansamarth.in/home','_blank');
-                window.location.replace("index.html");
+		        window.open('https://www.jansamarth.in/home','_blank');
+                ref();
 	      } else if (selectedValue === 'E Distrct') {
-		window.open('https://edistrict.kerala.gov.in/','_blank');
-                window.location.replace("index.html");
+		        window.open('https://edistrict.kerala.gov.in/','_blank');
+                ref();
 	      } else if (selectedValue === 'E Treasury') {
-		window.open('https://etreasury.kerala.gov.in/#','_blank');
-                window.location.replace("index.html");
+		        window.open('https://etreasury.kerala.gov.in/#','_blank');
+                ref();
 	      } else if (selectedValue === 'FSSAI') {
-		window.open('https://foscos.fssai.gov.in/','_blank');
-                window.location.replace("index.html");
+		        window.open('https://foscos.fssai.gov.in/','_blank');
+                ref();
               }
             });
 
@@ -220,23 +223,23 @@
             dropdown.addEventListener('change', function() {
               const selectedValue = this.value;
               if (selectedValue === 'Air Ticket') {
-                window.open('https://agent.mobisafar.com/MOBISAFAR/Login.aspx','_blank');
-                window.location.replace("index.html");
+                        window.open('https://agent.mobisafar.com/MOBISAFAR/Login.aspx','_blank');
+                ref();
              }  else if (selectedValue === 'Bus Ticket') {
-                window.open('https://onlineksrtcswift.com/','_blank');
-                window.location.replace("index.html");
+                        window.open('https://onlineksrtcswift.com/','_blank');
+                ref();
 	     } else if (selectedValue === 'Train Ticket') {
-                window.open('https://agent.mobisafar.com/MOBISAFAR/Login.aspx','_blank');
-                window.location.replace("index.html");
+                        window.open('https://agent.mobisafar.com/MOBISAFAR/Login.aspx','_blank');
+                ref();
 	     } else if (selectedValue === 'PWD rest house') {
-                window.open('https://resthouse.pwd.kerala.gov.in/booking/b_request/','_blank');
-                window.location.replace("index.html");
+                        window.open('https://resthouse.pwd.kerala.gov.in/booking/b_request/','_blank');
+                ref();
 	     } else if (selectedValue === 'Sabarimala') {
-                window.open('https://sabarimalaonline.org/#/login','_blank');
-                window.location.replace("index.html");
+                        window.open('https://sabarimalaonline.org/#/login','_blank');
+                ref();
 	     } else if (selectedValue === 'Cinema') {
-                window.open('https://in.bookmyshow.com/buytickets/baby-cinemas-kuthuparamba/cinema-kuth-BBYK-MT/20240130','_blank');
-                window.location.replace("index.html");
+                        window.open('https://in.bookmyshow.com/buytickets/baby-cinemas-kuthuparamba/cinema-kuth-BBYK-MT/20240130','_blank');
+                ref();
 
               }
             });
@@ -245,36 +248,35 @@
             dropdown.addEventListener('change', function() {
               const selectedValue = this.value;
               if (selectedValue === 'Aadhaar') {
-                window.open('https://myaadhaar.uidai.gov.in/','_blank');
-                window.location.replace("index.html");
+                        window.open('https://myaadhaar.uidai.gov.in/','_blank');
+                ref();
               } else if (selectedValue === 'E Shram Card') {
-                window.open('https://register.eshram.gov.in/#/user/self','_blank');
-                window.location.replace("index.html");
+                        window.open('https://register.eshram.gov.in/#/user/self','_blank');
+                ref();
  	      } else if (selectedValue === 'Ayushman Card') {
-                window.open('https://beneficiary.nha.gov.in/','_blank');
-                window.location.replace("index.html");              
+                        window.open('https://beneficiary.nha.gov.in/','_blank');
+                ref();              
 	     } else if (selectedValue === 'Health Card') {
-                window.open('https://abha.abdm.gov.in/abha/v3/register','_blank');
-                window.location.replace("index.html");
+                        window.open('https://abha.abdm.gov.in/abha/v3/register','_blank');
+                ref();
              } else if (selectedValue === 'Instant PAN') {
-                window.open('https://eportal.incometax.gov.in/iec/foservices/#/pre-login/instant-e-pan/getNewEpan','_blank');
-                window.location.replace("index.html"); 
+                        window.open('https://eportal.incometax.gov.in/iec/foservices/#/pre-login/instant-e-pan/getNewEpan','_blank');
+                ref(); 
 	     } else if (selectedValue === 'Covid Certificate') {
-                window.open('https://selfregistration.cowin.gov.in/','_blank');
-                window.location.replace("index.html");
+                        window.open('https://selfregistration.cowin.gov.in/','_blank');
+                ref();
 	     } else if (selectedValue === 'Ration Card') {
-                window.open('https://ecitizen.civilsupplieskerala.gov.in/index.php/c_login','_blank');
-                window.location.replace("index.html");
+                        window.open('https://ecitizen.civilsupplieskerala.gov.in/index.php/c_login','_blank');
+                ref();
 	     } else if (selectedValue === 'SSLC Result') {
-                window.open('https://sslcexam.kerala.gov.in/','_blank');
-                window.location.replace("index.html"); 
+                        window.open('https://sslcexam.kerala.gov.in/','_blank');
+                ref(); 
 	     } else if (selectedValue === '+2 Result') {
-                window.open('https://results.kite.kerala.gov.in/','_blank');
-                window.location.replace("index.html");
+                        window.open('https://results.kite.kerala.gov.in/','_blank');
+                ref();
 	     } else if (selectedValue === 'Resume') {
-                window.open('https://sevanamthalassery.com/certificate/resume.pdf','_blank');
-                window.location.replace("index.html");   
-                // Redirect to the official page
+                        window.open('https://sevanamthalassery.com/certificate/resume.pdf','_blank');
+                ref();  
               }
             });
 
@@ -282,47 +284,43 @@
             dropdown.addEventListener('change', function() {
               const selectedValue = this.value;
               if (selectedValue === 'Pravasi') {
-                window.open('https://pravasikerala.org/services/','_blank');
-                window.location.replace("index.html");
+                        window.open('https://pravasikerala.org/services/','_blank');
+                ref();
               } else if (selectedValue === 'Tailer') {
-                window.open('https://www.tailorwelfare.in/index.php','_blank');
-                window.location.replace("index.html");
+                        window.open('https://www.tailorwelfare.in/index.php','_blank');
+                ref();
               } else if (selectedValue === 'Transport') {
-                window.open('https://www.tailorwelfare.in/index.php','_blank');
-                window.location.replace("index.html");
-                // Redirect to the booking page
-              
+                        window.open('https://www.tailorwelfare.in/index.php','_blank');
+                ref();
               }
             });
 	    var dropdown = document.getElementById('dd7');
             dropdown.addEventListener('change', function() {
               const selectedValue = this.value;
               if (selectedValue === 'Photo Editor') {
-                window.open('https://photopea.com/','_blank');
-                window.location.replace("index.html");
+                        window.open('https://photopea.com/','_blank');
+                ref();
               } else if (selectedValue === 'Photo BG') {
-                window.open('https://www.remove.bg/','_blank');
-                window.location.replace("index.html");
+                        window.open('https://www.remove.bg/','_blank');
+                ref();
  	      } else if (selectedValue === 'PDF editor') {
-                window.open('https://www.sejda.com/pdf-editor','_blank');
-                window.location.replace("index.html");              
+                        window.open('https://www.sejda.com/pdf-editor','_blank');
+                ref();              
 	     } else if (selectedValue === 'PDF converter') {
-                window.open('https://www.ilovepdf.com/merge_pdf','_blank');
-                window.location.replace("index.html");
+                        window.open('https://www.ilovepdf.com/merge_pdf','_blank');
+                ref();
              } else if (selectedValue === 'Canva') {
-                window.open('https://www.canva.com/design/DAF7pCpkqH8/3xyiLIfPT7pTpvURBVmDOg/edit?locale=en','_blank');
-                window.location.replace("index.html"); 
+                        window.open('https://www.canva.com/design/DAF7pCpkqH8/3xyiLIfPT7pTpvURBVmDOg/edit?locale=en','_blank');
+                ref(); 
 	     } else if (selectedValue === 'Biodata') {
-                window.open('./certificate/resume.docx','_blank');
-                window.location.replace("index.html");
+                        window.open('./certificate/resume.docx','_blank');
+                ref();
 	     } else if (selectedValue === 'Sammatha pathram') {
-                window.open('./certificate/sammatham.pdf','_blank');
-                window.location.replace("index.html");
+                        window.open('./certificate/sammatham.pdf','_blank');
+                ref();
 	     } else if (selectedValue === 'Affidavit Edist') {
-                window.open('./certificate/affid.pdf','_blank');
-                window.location.replace("index.html"); 
-	        
-                // Redirect to the official page
+                    window.open('./certificate/affid.pdf','_blank');
+                    ref();
               }
             });
 
