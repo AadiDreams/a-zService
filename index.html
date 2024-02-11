@@ -11,7 +11,7 @@
     <script>
         function search(){
             const qvalue=document.getElementById("search-query").value.toLowerCase();
-            const bvalue=document.getElementsByClassName(qvalue);
+            const bvalue=document.getElementsByClassName("qvalue");
             for(var i=0;i<bvalue.length;i++)
             {
                 bvalue[i].scrollIntoView({behavior:"smooth"});
@@ -30,25 +30,23 @@
             </div>
         </form>
         <div class="user">
-            USER<br>1000109847
-        </div>
+          USER<br>1000109847
+      </div>
         <div class="drop">
             <select id="dd1">
-                <option>Tax / Fine / Payment</option>
+                <option>Tax / Fine / Bills</option>
                 <option>CSC</option>
                 <option>Ksmart</option>
-                <option>CSC</option>
-                <option>CSC</option>
-                <option>CSC</option>
-                <option>CSC</option>
-                <option>CSC</option>
-                <option>CSC</option>
-                <option>CSC</option>
-                <option>CSC</option>
-                <option>CSC</option>
+		<option>Mobisafar</option>
+                <option>Electricity</option>
+                <option>Water</option>
+                <option>Camera Fine</option>
+                <option>Police Fine</option>
+                <option>Virtual Court</option>
+                
             </select>
             <select id="dd2">
-                <option>Exam</option>
+                <option>Entrance Exam</option>
                 <option>NEET</option>
                 <option>JEE</option>
                 <option>KEAM</option>
@@ -57,61 +55,65 @@
             </select>
             <select id="dd3">
                 <option>Application</option>
-                <option>CSC</option>
-                <option>CSC</option>
-                <option>CSC</option>
-                <option>CSC</option>
-                <option>CSC</option>
-                <option>CSC</option>
-                <option>CSC</option>
-                <option>CSC</option>
-                <option>CSC</option>
-                <option>CSC</option>
-                <option>CSC</option>
-                <option>CSC</option>
-                <option>CSC</option>
+                <option>PSC</option>
+		<option>Staff Selection</option>
+                <option>PM Viswakarma</option>
+                <option>Passport</option>
+                <option>Election ID</option>
+                <option>Vehicle related</option>
+                <option>PM Kisan</option>
+                <option>Employment</option>
+                <option>Legal Metrology</option>
+                <option>Labour Registration</option>
+                <option>Education Loan</option>
+                <option>E-District</option>
+                <option>E-Treasury</option>
+		<option>FSSAI</option>
+
             </select>
             <select id="dd4">
                 <option>Booking</option>
-                <option>CSC</option>
-                <option>CSC</option>
-                <option>CSC</option>
-                <option>CSC</option>
-                <option>CSC</option>
-                <option>CSC</option>
-                <option>CSC</option>
-                <option>CSC</option>
+                <option>Air Ticket</option>
+                <option>Bus Ticket</option>
+                <option>Train Ticket</option>
+                <option>PWD rest house</option>
+                <option>Sabarimala</option>
+                <option>Cinema </option>
+               
             </select>
             <select id="dd5">
                 <option>Downloads</option>
-                <option>CSC</option>
-                <option>CSC</option>
-                <option>CSC</option>
-                <option>CSC</option>
-                <option>CSC</option>
-                <option>CSC</option>
-                <option>CSC</option>
-                <option>CSC</option>
-                <option>CSC</option>
-                <option>CSC</option>
-                <option>CSC</option>
-                <option>CSC</option>
-                <option>CSC</option>
-                <option>CSC</option>
-                <option>CSC</option>
+                <option>Aadhaar</option>
+                <option>E Shram Card</option>
+                <option>Ayushman Card</option>
+                <option>Health Card</option>
+                <option>Instant PAN</option>
+                <option>Covid Certificate</option>
+                <option>Ration Card</option>
+                <option>SSLC Result</option>
+                <option>+2 Result</option>
+                <option>Resume</option>
+               
             </select>
-            <select id="dd6">
+		<select id="dd6">
+                <option>Wefare Board</option>
+                <option>Pravasi</option>
+                <option>Tailer</option>
+                <option>Transport</option>               
+               
+            </select>
+            <select id="dd7">
                 <option>Official</option>
-                <option>CSC</option>
-                <option>CSC</option>
-                <option>CSC</option>
-                <option>CSC</option>
-                <option>CSC</option>
-                <option>CSC</option>
-                <option>CSC</option>
-                <option>CSC</option>
-                <option>CSC</option>
-                <option>CSC</option>
+                <option>Photo Editor</option>
+                <option>Photo BG</option>
+                <option>PDF editor</option>
+                <option>PDF converter</option>
+		<option>Canva</option>
+                <option>Biodata</option>
+                <option>Sammatha pathram</option>
+		<option>Affidavit Edist</option>
+                
+                
             </select>
         </div>
         <script>
@@ -124,139 +126,154 @@
               } else if (selectedValue === 'Ksmart') {
                 window.open('https://ikm.gov.in/online-services','_blank');
                 window.location.replace("index.html");
-              } else if (selectedValue === 'CSC') {
-                // Redirect to the booking page
-              } else if (selectedValue === 'CSC') {
-                // Redirect to the downloads page
-              } else if (selectedValue === 'CSC') {
-                // Redirect to the official page
-              } else if (selectedValue === 'CSC') {
-                // Redirect to the official page
-              } else if (selectedValue === 'CSC') {
-                // Redirect to the official page
-              } else if (selectedValue === 'CSC') {
-                // Redirect to the official page
-              } else if (selectedValue === 'CSC') {
-                // Redirect to the official page
-              } else if (selectedValue === 'CSC') {
-                // Redirect to the official page
-              } else if (selectedValue === 'CSC') {
-                // Redirect to the official page
+              } else if (selectedValue === 'Mobisafar') {
+		window.open('https://agent.mobisafar.com/MOBISAFAR/Login.aspx','_blank');
+                window.location.replace("index.html");
+	      } else if (selectedValue === 'Electricity') {
+		window.open('https://wss.kseb.in/selfservices/quickpay','_blank');
+                window.location.replace("index.html");
+	      } else if (selectedValue === 'Water') {
+		window.open('https://epay.kwa.kerala.gov.in/quickpay','_blank');
+                window.location.replace("index.html");
+	      } else if (selectedValue === 'Camera Fine') {
+		window.open('https://echallan.parivahan.gov.in/index/accused-challan','_blank');
+                window.location.replace("index.html");
+	      } else if (selectedValue === 'Police Fine') {
+		window.open('https://payment.keralapolice.gov.in/','_blank');
+                window.location.replace("index.html");
+  	      } else if (selectedValue === 'Virtual Court') {
+		window.open('https://vcourts.gov.in/virtualcourt/index.php','_blank');
+                window.location.replace("index.html");
               }
             });
 
             var dropdown = document.getElementById('dd2');
             dropdown.addEventListener('change', function() {
               const selectedValue = this.value;
-              if (selectedValue === 'CSC') {
-                window.open('https://digitalseva.csc.gov.in/','_blank');
+              if (selectedValue === 'NEET') {
+                window.open('https://neet.nta.nic.in/','_blank');
                 window.location.replace("index.html");
-              } else if (selectedValue === 'Ksmart') {
-                window.open('https://ikm.gov.in/online-services','_blank');
+              } else if (selectedValue === 'JEE') {
+                window.open('https://jeemain.nta.ac.in/','_blank');
                 window.location.replace("index.html");
-              } else if (selectedValue === 'CSC') {
-                // Redirect to the booking page
-              } else if (selectedValue === 'CSC') {
-                // Redirect to the downloads page
-              } else if (selectedValue === 'CSC') {
-                // Redirect to the official page
-              } else if (selectedValue === 'CSC') {
-                // Redirect to the official page
+              } else if (selectedValue === 'KEAM') {
+		window.open('https://jeemain.nta.ac.in/','_blank');
+                window.location.replace("index.html");
+	      } else if (selectedValue === 'CUSAT') {
+		window.open('https://admissions.cusat.ac.in/index.php?tag=login','_blank');
+                window.location.replace("index.html");
+	      } else if (selectedValue === 'NIELIT') {
+		window.open('https://student.nielit.gov.in/','_blank');
+                window.location.replace("index.html");
               }
             });
 
             var dropdown = document.getElementById('dd3');
             dropdown.addEventListener('change', function() {
               const selectedValue = this.value;
-              if (selectedValue === 'CSC') {
-                window.open('https://digitalseva.csc.gov.in/','_blank');
+              if (selectedValue === 'PSC') {
+                window.open('https://thulasi.psc.kerala.gov.in/thulasi/','_blank');
                 window.location.replace("index.html");
-              } else if (selectedValue === 'Ksmart') {
-                window.open('https://ikm.gov.in/online-services','_blank');
+              } else if (selectedValue === 'Staff Selection') {
+                window.open('https://ssckkr.kar.nic.in/','_blank');
                 window.location.replace("index.html");
-              } else if (selectedValue === 'CSC') {
-                // Redirect to the booking page
-              } else if (selectedValue === 'CSC') {
-                // Redirect to the downloads page
-              } else if (selectedValue === 'CSC') {
-                // Redirect to the official page
-              } else if (selectedValue === 'CSC') {
-                // Redirect to the official page
-              } else if (selectedValue === 'CSC') {
-                // Redirect to the official page
-              } else if (selectedValue === 'CSC') {
-                // Redirect to the official page
-              } else if (selectedValue === 'CSC') {
-                // Redirect to the official page
-              } else if (selectedValue === 'CSC') {
-                // Redirect to the official page
-              } else if (selectedValue === 'CSC') {
-                // Redirect to the official page
-              } else if (selectedValue === 'CSC') {
-                // Redirect to the official page
-              } else if (selectedValue === 'CSC') {
-                // Redirect to the official page
+              } else if (selectedValue === 'PM Viswakarma') {
+		window.open('https://pmvishwakarma.gov.in/Registration/','_blank');
+                window.location.replace("index.html");
+	      } else if (selectedValue === 'Passport') {
+		window.open('https://www.passportindia.gov.in/AppOnlineProject/welcomeLink#','_blank');
+                window.location.replace("index.html");
+	      } else if (selectedValue === 'Election ID') {
+		window.open('https://voters.eci.gov.in/','_blank');
+                window.location.replace("index.html");
+	      } else if (selectedValue === 'Vehicle related') {
+		window.open('https://mvd.kerala.gov.in/index.php/citizenCorner','_blank');
+                window.location.replace("index.html");
+	      } else if (selectedValue === 'PM Kisan') {
+		window.open('https://www.aims.kerala.gov.in/home/portal_schemes','_blank');
+                window.location.replace("index.html");
+  	      } else if (selectedValue === 'Employment') {
+		window.open('https://eemployment.kerala.gov.in/','_blank');
+                window.location.replace("index.html");
+              } else if (selectedValue === 'Legal Metrology') {
+		window.open('https://lmd.kerala.gov.in/en/fees-fine/','_blank');
+                window.location.replace("index.html");
+              } else if (selectedValue === 'Labour Registration') {
+		window.open('https://lcas.lc.kerala.gov.in/office/registration/onlinerenewal_online_pay.php','_blank');
+                window.location.replace("index.html");
+              } else if (selectedValue === 'Education Loan') {
+		window.open('https://www.jansamarth.in/home','_blank');
+                window.location.replace("index.html");
+	      } else if (selectedValue === 'E Distrct') {
+		window.open('https://edistrict.kerala.gov.in/','_blank');
+                window.location.replace("index.html");
+	      } else if (selectedValue === 'E Treasury') {
+		window.open('https://etreasury.kerala.gov.in/#','_blank');
+                window.location.replace("index.html");
+	      } else if (selectedValue === 'FSSAI') {
+		window.open('https://foscos.fssai.gov.in/','_blank');
+                window.location.replace("index.html");
               }
             });
 
             var dropdown = document.getElementById('dd4');
             dropdown.addEventListener('change', function() {
               const selectedValue = this.value;
-              if (selectedValue === 'CSC') {
-                window.open('https://digitalseva.csc.gov.in/','_blank');
+              if (selectedValue === 'Air Ticket') {
+                window.open('https://agent.mobisafar.com/MOBISAFAR/Login.aspx','_blank');
                 window.location.replace("index.html");
-              } else if (selectedValue === 'Ksmart') {
-                window.open('https://ikm.gov.in/online-services','_blank');
+             }  else if (selectedValue === 'Bus Ticket') {
+                window.open('https://onlineksrtcswift.com/','_blank');
                 window.location.replace("index.html");
-              } else if (selectedValue === 'CSC') {
-                // Redirect to the booking page
-              } else if (selectedValue === 'CSC') {
-                // Redirect to the downloads page
-              } else if (selectedValue === 'CSC') {
-                // Redirect to the official page
-              } else if (selectedValue === 'CSC') {
-                // Redirect to the official page
-              } else if (selectedValue === 'CSC') {
-                // Redirect to the official page
-              } else if (selectedValue === 'CSC') {
-                // Redirect to the official page
+	     } else if (selectedValue === 'Train Ticket') {
+                window.open('https://agent.mobisafar.com/MOBISAFAR/Login.aspx','_blank');
+                window.location.replace("index.html");
+	     } else if (selectedValue === 'PWD rest house') {
+                window.open('https://resthouse.pwd.kerala.gov.in/booking/b_request/','_blank');
+                window.location.replace("index.html");
+	     } else if (selectedValue === 'Sabarimala') {
+                window.open('https://sabarimalaonline.org/#/login','_blank');
+                window.location.replace("index.html");
+	     } else if (selectedValue === 'Cinema') {
+                window.open('https://in.bookmyshow.com/buytickets/baby-cinemas-kuthuparamba/cinema-kuth-BBYK-MT/20240130','_blank');
+                window.location.replace("index.html");
+
               }
             });
 
             var dropdown = document.getElementById('dd5');
             dropdown.addEventListener('change', function() {
               const selectedValue = this.value;
-              if (selectedValue === 'CSC') {
-                window.open('https://digitalseva.csc.gov.in/','_blank');
+              if (selectedValue === 'Aadhaar') {
+                window.open('https://myaadhaar.uidai.gov.in/','_blank');
                 window.location.replace("index.html");
-              } else if (selectedValue === 'Ksmart') {
-                window.open('https://ikm.gov.in/online-services','_blank');
+              } else if (selectedValue === 'E Shram Card') {
+                window.open('https://register.eshram.gov.in/#/user/self','_blank');
                 window.location.replace("index.html");
-              } else if (selectedValue === 'CSC') {
-                // Redirect to the booking page
-              } else if (selectedValue === 'CSC') {
-                // Redirect to the downloads page
-              } else if (selectedValue === 'CSC') {
-                // Redirect to the official page
-              } else if (selectedValue === 'CSC') {
-                // Redirect to the official page
-              } else if (selectedValue === 'CSC') {
-                // Redirect to the official page
-              } else if (selectedValue === 'CSC') {
-                // Redirect to the official page
-              } else if (selectedValue === 'CSC') {
-                // Redirect to the official page
-              } else if (selectedValue === 'CSC') {
-                // Redirect to the official page
-              } else if (selectedValue === 'CSC') {
-                // Redirect to the official page
-              } else if (selectedValue === 'CSC') {
-                // Redirect to the official page
-              } else if (selectedValue === 'CSC') {
-                // Redirect to the official page
-              } else if (selectedValue === 'CSC') {
-                // Redirect to the official page
-              } else if (selectedValue === 'CSC') {
+ 	      } else if (selectedValue === 'Ayushman Card') {
+                window.open('https://beneficiary.nha.gov.in/','_blank');
+                window.location.replace("index.html");              
+	     } else if (selectedValue === 'Health Card') {
+                window.open('https://abha.abdm.gov.in/abha/v3/register','_blank');
+                window.location.replace("index.html");
+             } else if (selectedValue === 'Instant PAN') {
+                window.open('https://eportal.incometax.gov.in/iec/foservices/#/pre-login/instant-e-pan/getNewEpan','_blank');
+                window.location.replace("index.html"); 
+	     } else if (selectedValue === 'Covid Certificate') {
+                window.open('https://selfregistration.cowin.gov.in/','_blank');
+                window.location.replace("index.html");
+	     } else if (selectedValue === 'Ration Card') {
+                window.open('https://ecitizen.civilsupplieskerala.gov.in/index.php/c_login','_blank');
+                window.location.replace("index.html");
+	     } else if (selectedValue === 'SSLC Result') {
+                window.open('https://sslcexam.kerala.gov.in/','_blank');
+                window.location.replace("index.html"); 
+	     } else if (selectedValue === '+2 Result') {
+                window.open('https://results.kite.kerala.gov.in/','_blank');
+                window.location.replace("index.html");
+	     } else if (selectedValue === 'Resume') {
+                window.open('https://sevanamthalassery.com/certificate/resume.pdf','_blank');
+                window.location.replace("index.html");   
                 // Redirect to the official page
               }
             });
@@ -264,34 +281,52 @@
             var dropdown = document.getElementById('dd6');
             dropdown.addEventListener('change', function() {
               const selectedValue = this.value;
-              if (selectedValue === 'CSC') {
-                window.open('https://digitalseva.csc.gov.in/','_blank');
+              if (selectedValue === 'Pravasi') {
+                window.open('https://pravasikerala.org/services/','_blank');
                 window.location.replace("index.html");
-              } else if (selectedValue === 'Ksmart') {
-                window.open('https://ikm.gov.in/online-services','_blank');
+              } else if (selectedValue === 'Tailer') {
+                window.open('https://www.tailorwelfare.in/index.php','_blank');
                 window.location.replace("index.html");
-              } else if (selectedValue === 'CSC') {
+              } else if (selectedValue === 'Transport') {
+                window.open('https://www.tailorwelfare.in/index.php','_blank');
+                window.location.replace("index.html");
                 // Redirect to the booking page
-              } else if (selectedValue === 'CSC') {
-                // Redirect to the downloads page
-              } else if (selectedValue === 'CSC') {
-                // Redirect to the official page
-              } else if (selectedValue === 'CSC') {
-                // Redirect to the official page
-              } else if (selectedValue === 'CSC') {
-                // Redirect to the official page
-              } else if (selectedValue === 'CSC') {
-                // Redirect to the official page
-              } else if (selectedValue === 'CSC') {
-                // Redirect to the official page
-              } else if (selectedValue === 'CSC') {
-                // Redirect to the official page
-              } else if (selectedValue === 'CSC') {
-                // Redirect to the official page
-              } else if (selectedValue === 'CSC') {
+              
+              }
+            });
+	    var dropdown = document.getElementById('dd7');
+            dropdown.addEventListener('change', function() {
+              const selectedValue = this.value;
+              if (selectedValue === 'Photo Editor') {
+                window.open('https://photopea.com/','_blank');
+                window.location.replace("index.html");
+              } else if (selectedValue === 'Photo BG') {
+                window.open('https://www.remove.bg/','_blank');
+                window.location.replace("index.html");
+ 	      } else if (selectedValue === 'PDF editor') {
+                window.open('https://www.sejda.com/pdf-editor','_blank');
+                window.location.replace("index.html");              
+	     } else if (selectedValue === 'PDF converter') {
+                window.open('https://www.ilovepdf.com/merge_pdf','_blank');
+                window.location.replace("index.html");
+             } else if (selectedValue === 'Canva') {
+                window.open('https://www.canva.com/design/DAF7pCpkqH8/3xyiLIfPT7pTpvURBVmDOg/edit?locale=en','_blank');
+                window.location.replace("index.html"); 
+	     } else if (selectedValue === 'Biodata') {
+                window.open('./certificate/resume.docx','_blank');
+                window.location.replace("index.html");
+	     } else if (selectedValue === 'Sammatha pathram') {
+                window.open('./certificate/sammatham.pdf','_blank');
+                window.location.replace("index.html");
+	     } else if (selectedValue === 'Affidavit Edist') {
+                window.open('./certificate/affid.pdf','_blank');
+                window.location.replace("index.html"); 
+	        
                 // Redirect to the official page
               }
             });
+
+
           </script>
     </header>
     <div class="blank"></div>
@@ -321,7 +356,17 @@
                 </label>
             </div>
         </a>
-
+ 	<a href="https://ksmart.lsgkerala.gov.in/ui/web-portal" target="_blank">
+            <div class="box ksmart k smart" id="k-smart">
+                <img src="./assets/ksmart.webp" alt="k smart"/>
+                <br>
+                <label for="title"><h1>K Smart</h1></label>
+                <br>
+                <label for="description">
+                    <p>All services under one app by Kerala Government</p>
+                </label>
+            </div>
+        </a>
         <a href="https://revenue.kerala.gov.in/" target="_blank">
             <div class="box land tax village">
                 <img src="./assets/land_tax.jpg" alt="land tax"/>
@@ -435,20 +480,18 @@
                 </label>
             </div>
         </a>
-
-        <a href="https://www.ilovepdf.com/" target="_blank">
-            <div class="box pdf editor ilovepdf" id="pdf editor">
-                <img src="./assets/pdf.png" alt="pdf editor"/>
+	<a href="http://www.ignou.ac.in/" target="_blank">
+            <div class="box ignou" id="ignou">
+                <img src="./assets/ignou.png" alt="ignou"/>
                 <br>
-                <label for="title"><h1>PDF Editor</h1></label>
+                <label for="title"><h1>ignou</h1></label>
                 <br>
                 <label for="description">
-                    <p>Convert</p>
-                    <p>Merge</p>
+                    <p>Distant Education</p>
                 </label>
             </div>
         </a>
-
+        
         <a href="https://jeemain.nta.nic.in/" target="_blank">
             <div class="box jee jeemain entrance exam" id="jee-main">
                 <img src="./assets/jee.jpg" alt="jee main"/>
@@ -472,19 +515,7 @@
                 </label>
             </div>
         </a>
-
-        <a href="https://ikm.gov.in/online-services" target="_blank">
-            <div class="box ksmart k smart" id="k-smart">
-                <img src="./assets/ksmart.webp" alt="k smart"/>
-                <br>
-                <label for="title"><h1>K Smart</h1></label>
-                <br>
-                <label for="description">
-                    <p>All services under one app by Kerala Government</p>
-                </label>
-            </div>
-        </a>
-
+     
         <a href="https://thulasi.psc.kerala.gov.in/thulasi/" target="_blank">
             <div class="box psc thulasi keralapsc" id="psc">
                 <img src="./assets/psc.jpg" alt="psc"/>
@@ -499,14 +530,25 @@
             </div>
         </a>
 
-        <a href="https://medisep.kerala.gov.in/SearchUser1.jsp?direct" target="_blank">
+        <a href="https://medcard.kerala.gov.in/" target="_blank">
             <div class="box medisep" id="medisep">
-                <img src="./assets/medi.avif" alt="medisep"/>
+                <img src="./assets/medicep.png" alt="medisep"/>
                 <br>
                 <label for="title"><h1>medisep</h1></label>
                 <br>
                 <label for="description">
                     <p>Medical Insurance</p>
+                </label>
+            </div>
+        </a>
+	<a href="https://echallan.parivahan.gov.in/index/accused-challan" target="_blank">
+            <div class="box CameraFine" id="CameraFine">
+                <img src="./img/mvdfine.png" alt="CameraFine"/>
+                <br>
+                <label for="title"><h1>Camera Fine</h1></label>
+                <br>
+                <label for="description">
+                    <p>Camera Fine</p>
                 </label>
             </div>
         </a>
@@ -533,19 +575,88 @@
                     <p>pass for checkpost (taxi)</p>
                 </label>
             </div>
-        </a>
-
-        <a href="http://www.ignou.ac.in/" target="_blank">
-            <div class="box ignou" id="ignou">
-                <img src="./assets/ignou.png" alt="ignou"/>
+	</a>
+	<a href="https://voters.eci.gov.in/" target="_blank">
+            <div class="box ElectionID" id="ElectionID">
+                <img src="./img/voter.jpg" alt="ElectionID"/>
                 <br>
-                <label for="title"><h1>ignou</h1></label>
+                <label for="title"><h1>Election ID</h1></label>
                 <br>
                 <label for="description">
-                    <p>Distant Education</p>
+                    <p>Election Voter ID</p>
                 </label>
             </div>
         </a>
+	
+	<a href="https://onlineksrtcswift.com/" target="_blank">
+            <div class="box BusBooking" id="BusBooking">
+                <img src="./img/ksrtc.png" alt="BusBooking"/>
+                <br>
+                <label for="title"><h1>Bus Booking</h1></label>
+                <br>
+                <label for="description">
+                    <p>Bus Booking</p>
+                </label>
+            </div>
+        
+        </a>
+	<a href="https://sabarimalaonline.org/#/login" target="_blank">
+            <div class="box Sabarimala" id="Sabarimala">
+                <img src="./img/mala.jpg" alt="Sabarimala"/>
+                <br>
+                <label for="title"><h1>Sabarimala</h1></label>
+                <br>
+                <label for="description">
+                    <p>Sabarimala Virtual queue</p>
+                </label>
+            </div>
+        </a>
+
+	<a href="https://pravasikerala.org/services/" target="_blank">
+            <div class="box Pravasi" id="Pravasi">
+                <img src="./img/pravasi.jpeg" alt="Pravasi"/>
+                <br>
+                <label for="title"><h1>Pravasi</h1></label>
+                <br>
+                <label for="description">
+                    <p>Pravasi Subscription</p>
+                </label>
+            </div>
+        </a>
+	<a href="https://www.ilovepdf.com/" target="_blank">
+            <div class="box pdf editor ilovepdf" id="pdf editor">
+                <img src="./assets/pdf.png" alt="pdf editor"/>
+                <br>
+                <label for="title"><h1>PDF Editor</h1></label>
+                <br>
+                <label for="description">
+                    <p>Convert</p>
+                    <p>Merge</p>
+                </label>
+            </div>
+        </a>
+ 	<a href="https://testseries247.com/profile/" target="_blank">
+            <div class="box ExamNIELIT" id="ExamNIELIT">
+                <img src="./img/mock.png" alt="ExamNIELIT"/>
+                <br>
+                <label for="title"><h1>ExamNIELIT</h1></label>
+                <br>
+                <label for="description">
+                    <p>Exam NIELIT</p>
+                </label>
+            </div>
+        </a>   
+	<a href="https://desktop.khatabook.com/parties/customers" target="_blank">
+            <div class="box CashBook" id="CashBook">
+                <img src="./img/cashbook.jpg" alt="CashBook"/>
+                <br>
+                <label for="title"><h1>Cash Book</h1></label>
+                <br>
+                <label for="description">
+                    <p>Cash Book</p>
+                </label>
+            </div>
+        </a>           
         
     </div>
     <footer class="footer">
