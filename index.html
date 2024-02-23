@@ -11,7 +11,7 @@
     <script>
         function search(){
             const qvalue=document.getElementById("search-query").value.toLowerCase();
-            const bvalue=document.getElementsByClassName("qvalue");
+            const bvalue=document.getElementsByClassName(qvalue);
             for(var i=0;i<bvalue.length;i++)
             {
                 bvalue[i].scrollIntoView({behavior:"smooth"});
